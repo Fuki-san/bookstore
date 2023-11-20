@@ -93,9 +93,9 @@
             </div>
             <div class="item">
                 <p class="title">タイトルタイトル</p>
-                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p>てき</p>
             </div>
         </div>
-        <p class="copyright">&copy; Mag88</p>
+        <p>&copy; Mag88</p>
     </footer>
 @endsection

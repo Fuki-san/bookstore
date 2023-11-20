@@ -17,6 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('book', function() {
-    return view('bookstore');
-})->name('book');
+Route::get('')

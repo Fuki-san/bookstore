@@ -39,8 +39,8 @@
             <div class="wrapper">
                 <h2 class="sec-title">Fashion &amp; Style</h2>
                 <p>
-                    テキストテキストテキストテキスト<br>
-                    テキストテキスト
+                テキストテキストテキストテキスト<br>
+                テキストテキスト
                 </p>
                 <a href="#" btn>Read More</a>
             </div>
@@ -58,44 +58,47 @@
                     <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
             </div>
+
+            
+            <img src="">
+            <h3>Catalog</h3>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </section>
-        <section class="catalog-antique">]
-            <div class="flex-item wrapper">
-                <div class="item">
-                    <h2 class="sec-title">Catalog</h2>
-                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                    <a href="#" class="btn">Read More</a>
-                </div>
-                <div class="item">
-                    <img src="img/antique.jpg">
-                </div>
-            </div>
+        <section class="catalog-antique">
+            <img src="">
+            <h3>Antique</h3>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </section>
+
     </main>
 
 
-    <footer id="footer">
-        <div class="flex-item wrapper">
-            <div class="item">
-                <a href="{{ route('book') }}"><img src="img/logo.svg"></a>
-            </div>
-            <div class="item">
-                <p class="title">タイトル</p>
-                <ul>
-                    <li>テキスト</li>
-                    <li>テキスト</li>
-                    <li>テキスト</li>
-                    <li>テキスト</li>
-                    <li>テキスト</li>
-                </ul>
-            </div>
-            <div class="item">
-                <p class="title">タイトルタイトル</p>
-                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
+    <footer>
+        <div class="footer-menu">
+            <img src="">
+            <h4>タイトル</h4>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <h4>タイトルタイトルタイトル</h4>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
-        <p class="copyright">&copy; Mag88</p>
+        <p>&copy; Mag88</p>
     </footer>
 @endsection

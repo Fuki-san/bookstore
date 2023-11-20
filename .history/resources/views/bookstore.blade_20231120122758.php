@@ -96,6 +96,6 @@
                 <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
             </div>
         </div>
-        <p class="copyright">&copy; Mag88</p>
+        <p class="cp">&copy; Mag88</p>
     </footer>
 @endsection

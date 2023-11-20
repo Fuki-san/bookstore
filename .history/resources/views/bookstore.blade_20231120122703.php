@@ -91,11 +91,8 @@
                     <li>テキスト</li>
                 </ul>
             </div>
-            <div class="item">
-                <p class="title">タイトルタイトル</p>
-                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
+            <div></div>
         </div>
-        <p class="copyright">&copy; Mag88</p>
+        <p>&copy; Mag88</p>
     </footer>
 @endsection

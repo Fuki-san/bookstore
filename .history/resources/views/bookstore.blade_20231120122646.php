@@ -86,16 +86,12 @@
                 <ul>
                     <li>テキスト</li>
                     <li>テキスト</li>
-                    <li>テキスト</li>
-                    <li>テキスト</li>
-                    <li>テキスト</li>
+                    <li>て</li>
+                    <li></li>
+                    <li></li>
                 </ul>
             </div>
-            <div class="item">
-                <p class="title">タイトルタイトル</p>
-                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
         </div>
-        <p class="copyright">&copy; Mag88</p>
+        <p>&copy; Mag88</p>
     </footer>
 @endsection
