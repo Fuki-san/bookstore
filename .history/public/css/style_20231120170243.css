@@ -1,0 +1,122 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 0.875rem;
+    color: #2a2a2a;
+    font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* //中身コンテンツ */
+
+.wrapper{
+    padding: 0 5%;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.sec-title{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* ボタン */
+
+.btn{
+    color: #2a2a2a;
+    border: solid 1px #2a2a2a;
+    display: inline-block;
+    font-size: 0.750rem;
+    padding: 14px 36px;
+    margin-top: 30px;
+}
+
+/* ヘッダー */
+#header{
+    height: 100vh;
+    background-image: url(../img/mainvisual.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+/* logo */
+#header .site-title{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+/* magazine */
+
+#magazine{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#magazine .flex-items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#magazine .flex-items .items{
+    width: 49%;
+    position: relative;
+}
+
+#magazine .flex-items .items .text{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: #fff;
+    max-width: 290px;
+}
+
+#magazine .flex-items .items .text .title{
+    font-size: 1.25rem;
+    margin-bottom: 2px;
+}
+
+#fashion{
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 80px;
+    height: 520px;
+    background-image: url(../img/fashion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.catalog-antique{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: ;
+}

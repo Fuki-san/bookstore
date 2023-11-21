@@ -1,0 +1,25 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 0.9rem;
+    color: #242e24;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.wrapper{
+    padding: 0 4%;
+}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 0.875rem;
+    color: #2a2a2a;
+    font-
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.wrapper{
+    padding: 0 4%;
+    margin-bottom: 30px;
+
+}
+
+.title{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.flex-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+items{
+    width: 50%;
+    max-width: 1920px;
+}
+
+.sec-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}

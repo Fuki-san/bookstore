@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 0.875rem;
+    color: #2a2a2a;
+    font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+/* content */
+.wrapper {
+    padding: 0 5%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.sec-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* btn */
+
+.btn {
+    padding: 14px 36px;
+    border: solid 1px #2a2a2a;
+    color: #2a2a2a;
+    display: inline-block;
+    font-size: 0.750rem;
+    margin-top: 30px;
+}
+
+/* ヘッダー */
+
+#header {
+    background-image: url(../img/mainvisual.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 80px;
+    height: 100vh;
+}
+
+#header .site-title {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* magazine */
+#magazine {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#magazine .flex-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#magazine .flex-item .item {
+    width: 49%;
+    position: relative;
+}
+
+#magazine .flex-item .item .text {
+    max-width: 290px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    text-align: center;
+    padding: 10px 15px;
+
+    
+    padding: 15px 0;
+}
+
+#magazine .title {
+    font-weight: bold;
+}
+
+#fashion {
+    background-image: url(../img/fashion.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+}
+
+#catalog-antique {
+    background-color: gray;
+    padding-top: 30px;
+}
+
+#footer {
+    background-color: #242424;
+}
+
+#footer .item {
+    width: 32%;
+}
+
+.copyright {
+    background-color: #fff;
+    text-align: center;
+}

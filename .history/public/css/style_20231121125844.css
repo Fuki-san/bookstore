@@ -1,0 +1,15 @@
+html{
+    font-size: 100%;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-size: 0.875rem;
+    color: #242424;
+}
+.wrapper{
+    padding: 0 5%;
+}
+.flex-item{
+    }
